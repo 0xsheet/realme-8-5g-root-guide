@@ -1,0 +1,17 @@
+{
+  "files": [
+    {"name":"antumbra","url":"https://github.com/shomykohai/penumbra/releases/download/v2.0.0/antumbra","sha256":"931b4614cded71b2d9a7bdfceb1b08dd2c2021020ae68d042909f78256436ee4","path":"antumbra","executable":true},
+    {"name":"Magisk-v30.7.apk","url":"https://github.com/topjohnwu/Magisk/releases/download/v30.7/Magisk-v30.7.apk","sha256":"e0d32d2123532860f97123d927b1bb86c4e08e6fd8a48bfc6b5bee0afae9ebd5","path":"Magisk-v30.7.apk"},
+    {"name":"platform-tools_r36.0.0-linux.zip","url":"https://dl.google.com/android/repository/platform-tools_r36.0.0-linux.zip","sha256":"0ead642c943ffe79701fccca8f5f1c69c4ce4f43df2eefee553f6ccb27cbfbe8","path":"platform-tools.zip","extract":"platform-tools"}
+  ],
+  "repositories": [
+    {"name":"mtkclient","url":"https://github.com/bkerler/mtkclient.git","commit":"7cb40e727727dfe3faa065eefb29b16ed29bbdf1"},
+    {"name":"oppo-fastboot","url":"https://github.com/Shocked-Cat/oppo-mtk-fastboot-unlock.git","commit":"ecf8e2c6f967706e6ab55c4774141abb5d78d12f"},
+    {"name":"geek-mtk","url":"https://gitee.com/geekflashtool/package_mtk_edl.git","commit":"566ab99bc2502f8d655c971bb1e411d3e74929e0"}
+  ],
+  "da_stages": [
+    {"path":"DA/OPLUS/MT6833_15_2025_DA1.bin","sha256":"722bc21475bca1a6794ae0a703808d148b457768ee1258ca3532a758408b61b9"},
+    {"path":"DA/OPLUS/MT6833_15_2025_DA2.bin","sha256":"c1591cdedb858c9640d64f27935254a521bc8eb9eecbc071676018994b0392c6"}
+  ],
+  "da_container_sha256":"1933ec9b700f2e02bb9a018b97c47e6b11d6d0a36a1c1c8f4b8d1c40e27e985d"
+}

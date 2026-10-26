@@ -1,0 +1,14 @@
+{
+  "id":"rmx3241-f12",
+  "status":"One documented hardware success; reusable scripts separately tested without device writes",
+  "identity":{"ro.product.model":"RMX3241","ro.product.device":"RE513CL1","ro.build.display.id":"RMX3241_11_F.12","ro.build.version.release":"13","ro.oplus.image.my_region.type":"LATAM"},
+  "case_region":"LATAM / project 20796 / NV ID 10011010; independently check your region",
+  "hwcode":2441,
+  "sector_size":4096,
+  "boot_size":33554432,
+  "preloader_size":4194304,
+  "preloader_code_offset":4096,
+  "preloader_patch_shift":4096,
+  "required_backups":["PGPT","boot","preloader","preloader_backup","seccfg"],
+  "excluded_backups":["userdata","super","cache"]
+}
